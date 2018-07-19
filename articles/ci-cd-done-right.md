@@ -8,7 +8,8 @@ title: CI and CD Done Right
 
 ## Short Introduction and History of CI
 
-Continuous integration (CI) was adopted and driven by the extreme programming (XP) methodology in order to combat _integration hell_. XP first advocated writing unit tests which every developer can run locally before merging to the mainline. In later iterations of XP the concept of a build server was introduced and further improvements led to what we refer to as CI:
+Continuous integration (CI) was adopted and driven by the extreme programming (XP) methodology in order to combat _integration hell_. XP first advocated writing unit tests which every developer can run locally before merging to the mainline. In later iterations of XP the concept of a build server was introduced, and further improvements led to what we refer to as CI:
+
 * Fast automated builds
 * Run on every commit
 * Including tests
@@ -16,7 +17,7 @@ Continuous integration (CI) was adopted and driven by the extreme programming (X
 
 ## Short Introduction of CD
 
-Continuous delivery (CD) builds upon CI with the aim that the mainline branch can be released and deployed to production at any time. Continuous delivery is quite similar to continuous deployment but continuous deployment will deploy any merges to mainline to production (if tests pass) whereas with continuous delivery releases and deployments are triggered by a human. For an example see below:
+Continuous delivery (CD) builds upon CI with the aim that the mainline branch can be released and deployed to production at any time. Continuous delivery is quite similar to continuous deployment, but continuous deployment will deploy any merges to the mainline to production (if tests pass) whereas with continuous delivery releases and deployments are triggered by a human. For an example see below:
 
 ![Example delivery pipeline](./ci-c-done-right/delivery-pipeline.png)
 
@@ -28,6 +29,7 @@ There are a number of obstacles to overcome on your road to CI and CD. Obstacles
 1. People
 2. Organizations
 3. Tooling
+
 Solving obstacles around people is both the hardest and most important challenge you must overcome, while tooling is the easiest and least important. 
 
 ### Issues and solutions around people
